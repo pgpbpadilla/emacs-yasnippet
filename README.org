@@ -1,0 +1,17 @@
+#+PROPERTY: header-args :results verbatim
+
+
+* Installing snippets
+
+  Simply make sure that Emacs can find them.
+
+  By default snippets are found in:
+
+  #+begin_src shell 
+    ls ~/.emacs.d/snippets
+  #+end_src
+
+  #+RESULTS:
+  : imglink
+  : org-mode
+  : sh-mode
